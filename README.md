@@ -4,6 +4,8 @@
 
 時光图床是一个简单的图床应用，允许用户通过浏览器浏览和管理图片。本项目使用 `Node.js` 和 `Express` 构建，并可以轻松部署到 `Vercel`。
 
+详细介绍可参考文章[Vercel搭建图床](https://blog.shiguang666.eu.org/2024/08/28/b416c7847722/)
+
 ## 功能特性
 
 - 浏览目录和图片
@@ -28,7 +30,17 @@ npm install
 node server.js
 ```
 
+或者
+
+```bash
+npm start
+```
+
 运行后，打开浏览器访问 `http://localhost:8080`，即可看到图床应用。
+
+## 效果演示
+
+![show](https://github.com/Shiguang-coding/vercel-img/blob/main/public/2024/08/28/show.gif?raw=true)
 
 ## 部署到 Vercel
 
@@ -91,5 +103,4 @@ my-project/
 ├── package.json
 └── vercel.json
 ```
-
 
